@@ -20,7 +20,7 @@
             </div>
             <div class="relative hidden md:block">
                 <div class="bg-gradient-to-tr from-accent to-accent-dark w-[500px] h-[500px] rounded-full absolute -top-10 -right-10 opacity-10 animate-pulse"></div>
-                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800" alt="Szkolenia" class="rounded-3xl shadow-2xl relative z-10 animate-float">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero.png" alt="Szkolenia" class="rounded-3xl shadow-2xl relative z-10 animate-float">
             </div>
         </div>
     </section>
