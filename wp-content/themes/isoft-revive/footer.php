@@ -2,8 +2,8 @@
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                 <div class="col-span-1 md:col-span-2">
-                    <a href="#" class="text-2xl font-bold font-heading mb-6 block">
-                        iSoft<span class="text-accent">.biz.pl</span>
+                    <a href="#" class="mb-6 block">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" class="h-10 w-auto brightness-0 invert">
                     </a>
                     <p class="text-white/60 max-w-sm mb-6">
                         Twoje centrum szkoleń i certyfikacji. Pomagamy rozwijać kompetencje cyfrowe i zawodowe od lat.

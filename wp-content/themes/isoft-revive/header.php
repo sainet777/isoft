@@ -9,8 +9,8 @@
     <header class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
         <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
             <div class="flex items-center space-x-2">
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="text-2xl font-bold font-heading text-primary">
-                    iSoft<span class="text-accent">.biz.pl</span>
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="block">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" class="h-10 w-auto">
                 </a>
             </div>
             <div class="hidden md:flex space-x-8 items-center">
